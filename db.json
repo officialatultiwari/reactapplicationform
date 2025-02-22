@@ -1,0 +1,54 @@
+{
+  "student": [
+    {
+      "id ": 1,
+      "rollno": 121,
+      "name": "ankit",
+      "city": "bhopal",
+      "fees": 2000,
+      "id": "eda5"
+    },
+    {
+      "id ": 2,
+      "rollno": 122,
+      "name": "vikash",
+      "city": "indore",
+      "fees": 3000,
+      "id": "1aba"
+    },
+    {
+      "id ": 3,
+      "rollno": 124,
+      "name": "umesh",
+      "city": "mp",
+      "fees": 8000,
+      "id": "7e76"
+    },
+    {
+      "id": "774b",
+      "rollno": "h",
+      "name": "j",
+      "city": " y",
+      "fees": "h"
+    },
+    {
+      "id": "f49e",
+      "rollno": "h",
+      "name": "j",
+      "city": " y",
+      "fees": "h"
+    },
+    {
+      "id": "6ddd",
+      "rollno": "123",
+      "name": "atul",
+      "fees": "233"
+    },
+    {
+      "id": "f9e6",
+      "rollno": "atul",
+      "name": "atul",
+      "city": "bhopal"
+    }
+  ]
+}
