@@ -4,7 +4,7 @@ const Display = () => {
   const [mydata,setMydata]=useState([]);
 
   const loadAData=async()=>{
-    let api="http://localhost:3000/student";
+    let api="http://localhost:3000/student ";
     const response=await axios.get(api);
     setMydata(response.data);
   }

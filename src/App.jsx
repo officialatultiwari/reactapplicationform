@@ -1,32 +1,17 @@
-import { BrowserRouter,Routes ,Route } from "react-router-dom";
-import Layout from "./Layout";
-import Home from "./pages/Home";
-import Display from "./pages/Display";
-import Insert from "./pages/Insert";
+import Bhopal from "./Bhopal"
+import { createContext, useState } from "react"
+const colorContext= createContext();
+import React from 'react'
 
-
-const App=()=>{
-
-
-
-  return( 
+const App = () => {
+  const [color, Setcolor] =useState("yellow");
+  
+  return (
     <>
-
-<BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Layout/>}>   
-      <Route index element={<Home/>} />
-      <Route path="home" element={<Home/>} />
-      <Route path="display" element={<Display/>} />
-      <Route path="insert" element={<Insert/>} />
-
-       
-    </Route>
-    </Routes>
-    
-    </BrowserRouter>
-   
+    <button onClick={()=}
     </>
+    
   )
 }
-export default App;
+
+export default App
